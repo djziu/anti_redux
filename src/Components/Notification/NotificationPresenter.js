@@ -61,9 +61,13 @@ const NotificationPresenter = ({id,text, seen}) =>(
           {store =>(
             <Fragment>
               <Button success seen ={seen} onClick ={() => store.seeNotification(id)} >
+                  <FontAwesome name="check"/>
+              </Button>
+              <Button danger seen ={seen} onClick ={() => store.deleteNotification(id)} >
                   <FontAwesome name="times"/>
               </Button>
             </Fragment>
+            
           ) }
         </Store.Consumer>
       </FlexItem>

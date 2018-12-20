@@ -4,7 +4,7 @@ import NotificationPresenter from "./NotificationPresenter";
 class NotificationContainer extends Component {
 
   render(){
-    return <NotificationPresenter {...this.props} {...this.state}  />
+    return <NotificationPresenter {...this.props}  />
   }
 }
 

@@ -7,7 +7,7 @@ import Store from "store";
 const AppPresenter = () =>(
   <Fragment>
     <Header/>
-    <Flex>
+    <Flex alignCenter full column>
         <Store.Consumer>
           {
             Store => {

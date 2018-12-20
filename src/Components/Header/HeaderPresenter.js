@@ -7,7 +7,7 @@ import Store from "store";
 
 const Header = styled.header`
     height : 100px;
-    background-color : blue;
+    background-color : yellow;
     padding: 0 40px;
     margin-bottom : 30px
 `;
@@ -59,7 +59,7 @@ const HeaderPresenter = () => (
     <Header>
         <Flex full justifyBetween alignCenter>
             <FlexItem>
-                    <h3>hahaha</h3>
+                    <h3>react study</h3>
             </FlexItem>
             <FlexItem>
                 <Flex>
